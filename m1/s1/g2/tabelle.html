@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table{
+            width: 100%;
+            text-align: center;
+        }
+        table th, table td{
+            border: 1px solid black;
+        }
+    </style>
+    <title>Tabelle</title>
+</head>
+<body>
+    <table>
+        <caption>Diffusione dei CSS</caption>
+        <thead>
+            <tr><th>Anno</th><th>% di utilizzo</th><th>Supporto browsers</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>2000</td><td>20%</td><td>17%</td></tr>
+            <tr><td>2002</td><td>35%</td><td>22%</td></tr>
+            <tr><td>2004</td><td>45%</td><td>42%</td></tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <table>
+        <tr>
+            <td>cella1</td>
+            <td rowspan="2">cella2-5</td>
+            <td>cella3</td>
+        </tr>
+        <tr>
+            <td>cella4</td>
+            <!--cella 5 eliminata-->
+            <td>cella6</td>
+        </tr>
+        <tr>
+            <td>cella7</td>
+            <!--cella 8 eliminata-->
+            <td colspan="2">cella8-9</td>
+        </tr>
+    </table>
+</body>
+</html>
