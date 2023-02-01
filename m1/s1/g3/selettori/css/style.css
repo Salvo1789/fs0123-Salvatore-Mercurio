@@ -1,0 +1,15 @@
+#rosso{
+    background-color: red;
+}
+
+.giallo{
+    background-color: yellow;
+}
+
+#conflitti div{
+    background-color: blue;
+}
+
+#conflitti .verde{
+    background-color: green;
+}
