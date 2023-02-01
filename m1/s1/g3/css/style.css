@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
+
+body{
+    font-family: 'Vesper Libre', serif;
+}
+
+
+main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+}
+
+#presentation{
+    text-align:left;
+    margin-bottom: 0ch;
+}
+
+header p{
+    color:rgb(4, 24, 80);
+    border-top: solid orange;
+    background-color: rgb(250, 241, 226);
+}
+
+span{
+    text-transform: uppercase;
+    font-weight:bolder;
+}
+
+#div1{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+h2{
+    margin: 2em auto;
+}
+
+h4{
+    color: red;
+    text-transform: uppercase;
+}
