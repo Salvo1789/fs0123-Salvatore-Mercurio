@@ -1,0 +1,69 @@
+#pagina{
+    background-image: url(../img/sfondo.png);
+    border-image-repeat: repeat;
+}
+.margin{
+    margin: 20px;
+}
+.logo{
+    width: 250px;
+    height: 60px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    object-fit: contain;
+}
+/* HEADER */
+.header{
+    background-color: blue;
+    background-image: linear-gradient(351deg, #1e6660, #5cb5c9);
+    border: 1px solid aqua;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.header p, .header a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    ;
+}
+
+.header ul{
+    list-style-type: none;
+}
+
+.header li:before{
+    content:"=>";
+    color: white;
+    font-weight: bold;
+}
+
+.header li:after{
+    content:"<=";
+    color: white;
+    font-weight: bold;
+}
+
+
+/* MAIN */
+main {
+    background-color: white;
+    border: 1px solid grey;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
