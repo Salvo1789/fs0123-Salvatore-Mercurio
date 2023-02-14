@@ -155,7 +155,7 @@ console.log(upperFirst("ti lancio una mega onda energetica"));
 function cutString(stringa){
     return stringa.slice(1, -1)
 }
-console.log(cutString("epicode"));
+console.log(cutString("funicolare"));
 
 
 /* ESERCIZIO 10
