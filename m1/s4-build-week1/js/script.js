@@ -368,12 +368,17 @@ function createBenchPage() {
     // se si arriva all'ultima domanda passare a pagina dei risultati
     // altrimenti si stampa una nuova domanda
 
-    indexDomanda === domandeRandom.length ? displayResult() : printQuiz();
-    let questPos = document.createElement('div')
-    questPos.id += 'position'
-    questPos.innerHTML = `<span class="white">QUESTION ${conteggioDomande}</span><span class="questionSpan">/ ${domandeRandom.length}</span>`
+    if (indexDomanda === domandeRandom.length) {
+        displayResult();
+    }else 
+    {
+        printQuiz();
+        let questPos = document.createElement('div');
+        questPos.id += 'position';
+        questPos.innerHTML = `<span class="white">QUESTION ${conteggioDomande}</span><span class="questionSpan">/ ${domandeRandom.length}</span>`;
 
-    divConteiner.appendChild(questPos)
+        divConteiner.appendChild(questPos);
+    }
 }
 
 
