@@ -470,7 +470,7 @@ function displayResult() {
 
         for (let x = 0; x < 10; x++) {
             const star = createElements(main, "img", "star");
-            star.src = "../assets/img/star.svg";
+            star.src = "assets/img/star.svg";
             star.starValue = x + 1;
             ["mouseover", "mouseout", "click"].forEach((ele) => {
                 star.addEventListener(ele, starRate);
